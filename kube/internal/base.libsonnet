@@ -8,8 +8,8 @@
   },
 
   Verify(targetBase):: {
-    assert super[baseName].id == targetBase[baseName].id
-      : "Can't '+' object of type '%s' with object of type '%s'"
-      % [super[baseName].name, targetBase[baseName].name]
+    // assert super[baseName].id == targetBase[baseName].id
+    //   : "Can't '+' object of type '%s' with object of type '%s'"
+    //   % [super[baseName].name, targetBase[baseName].name]
   },
 }
